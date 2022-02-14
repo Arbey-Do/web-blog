@@ -30,6 +30,10 @@ a {
 	height: 100%;
 }
 
+.header {
+	max-height: 5rem;
+}
+
 .header.header_flex {
 	background-color: #47cfac;
 }
@@ -60,6 +64,10 @@ a {
 
 .icon_white {
 	color: #FFF;
+}
+
+.nav {
+	max-height: 5rem;
 }
 
 .nav.nav_flex {
