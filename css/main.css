@@ -141,13 +141,6 @@ a {
 	text-align: center;
 }
 
-@media (min-width: 375px) and (orientation: landscape) {
-	.main-container {
-		height: 100%;
-		justify-content: space-around;
-	}
-}
-
 @media (min-width: 425px) {
 
 	.header__icons-container {
@@ -173,14 +166,12 @@ a {
 
 @media (min-width: 768px) {
 	.main-container {
-		gap: 12rem;
+		height: 100%;
+		gap: 2rem;
 	}
 }
 
 @media (min-width: 1024px) {
-	.main-container {
-		gap: 18rem;
-	}
 
 	.title {
 		font-size: 4rem;
