@@ -1,0 +1,53 @@
+/* HEADER styles */
+.header {
+  background-color: #47cfac;
+  min-height: 5rem;
+	display: flex;
+	align-items: center
+}
+
+.w_90pc-center {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header__icons-container {
+	display: flex;
+	justify-content: center;
+}
+
+.icons {
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 3rem;
+	align-items: center;
+}
+
+.icon_white {
+	color: #FFF;
+}
+
+/* NAV styles */
+.nav {
+	min-height: 8rem;
+	display: flex;
+	align-items: center;
+}
+
+.nav__links-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__logo {
+	width: 200px;
+}
+
+.nav__link {
+	display: none;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: underline;
+}
