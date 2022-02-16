@@ -85,6 +85,10 @@
   padding: 1.5rem 0;
 }
 
+.post-img__rounded {
+  border-radius: 3px;
+}
+
 .blogposts__title {
   text-align: center;
 }
@@ -103,7 +107,7 @@
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 .post {
@@ -129,4 +133,3 @@
   height: 4rem;
   width: 10rem;
 }
-
