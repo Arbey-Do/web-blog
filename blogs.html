@@ -7,10 +7,11 @@
   <title>Tech Blog</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/font/flaticon.css">
   <link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/header-nav.css">
+  <link rel="stylesheet" href="./css/blogs.css">
 </head>
 <body>
   <header class="header">
@@ -25,14 +26,68 @@
     </div>
   </header>
   <nav class="nav">
-    <div class="nav__links-container w_90pc-center">
+    <div class="nav__links-container blogs-nav w_93pc-center">
       <div>
-        <a href="#"><img class="nav__logo" src="./assets/img/logo.png" alt="Blog logo"></a>
+        <a href="./blogs.html"><img class="nav__logo" src="./assets/img/logo.png" alt="Blog logo"></a>
       </div>
       <div>
-        <a class="nav__link" href="#">Sobre mí</a>
+        <a class="nav__link blogs-nav__home-link" href="./index.html">Home</a>
       </div>
     </div>
   </nav>
+  <section class="news">
+    <div class="w_93pc-center">
+      <h2 class="section-title">Noticias</h2>
+      <article class="main-news">
+        <img class="post-img" src="./assets/img/main-news-img-500.png" alt="vintage electronic devices">
+        <h3 class="post__title main-news__title">Título del Blogpost</h3>
+        <p class="main-news__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae unde, aut eos veniam esse odit blanditiis beatae sed, ullam expedita perferendis, quasi quod rerum repellat? Dolor beatae corporis fugiat adipisci!</p>
+        <a class="link-content post__link" href="#"><span>Leer más</span></a>
+      </article>
+    </div>
+  </section>
+  <section class="blogposts">
+    <div class="w_80pc-center w_pc-center">
+      <h2 class="section-title blogposts__title">Últimos blogposts</h2>
+      <div class="blogposts__container">
+        <article class="post">
+          <img class="post-img" src="./assets/img/post-1-500.png" alt="some text">
+          <h3 class="post__title post__title_soft-grey">Título del Blogpost</h3>
+          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+          <a class="link-content post__link" href=""><span></span>Leer más</a>
+        </article>
+        <article class="post">
+          <img class="post-img" src="./assets/img/post-2-500.png" alt="some text">
+          <h3 class="post__title post__title_soft-grey">Este es mi título para el blogpost</h3>
+          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+          <a class="link-content post__link" href=""><span></span>Leer más</a>
+        </article>
+        <article class="post">
+          <img class="post-img" src="./assets/img/post-3-500.png" alt="some text">
+          <h3 class="post__title post__title_soft-grey">Este es mi título para el blogpost</h3>
+          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+          <a class="link-content post__link" href=""><span></span>Leer más</a>
+        </article>
+        <article class="post">
+          <img class="post-img" src="./assets/img/post-1-500.png" alt="some text">
+          <h3 class="post__title post__title_soft-grey">Título del Blogpost</h3>
+          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+          <a class="link-content post__link" href=""><span></span>Leer más</a>
+        </article>
+        <article class="post">
+          <img class="post-img" src="./assets/img/post-2-500.png" alt="some text">
+          <h3 class="post__title post__title_soft-grey">Este es mi título para el blogpost</h3>
+          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+          <a class="link-content post__link" href=""><span></span>Leer más</a>
+        </article>
+        <article class="post">
+          <img class="post-img" src="./assets/img/post-3-500.png" alt="some text">
+          <h3 class="post__title post__title_soft-grey">Este es mi título para el blogpost</h3>
+          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+          <a class="link-content post__link" href=""><span></span>Leer más</a>
+        </article>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

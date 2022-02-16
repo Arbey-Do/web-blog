@@ -6,8 +6,18 @@
 	align-items: center
 }
 
+.w_93pc-center {
+	width: 93%;
+	margin: 0 auto;
+}
+
 .w_90pc-center {
 	width: 90%;
+	margin: 0 auto;
+}
+
+.w_80pc-center {
+	width: 80%;
 	margin: 0 auto;
 }
 
