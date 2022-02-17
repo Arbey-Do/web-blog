@@ -21,6 +21,11 @@
 	margin: 0 auto;
 }
 
+.w-1200 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 .header__icons-container {
 	display: flex;
 	justify-content: center;

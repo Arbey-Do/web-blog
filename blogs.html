@@ -35,65 +35,68 @@
       </div>
     </div>
   </nav>
-  <section class="news">
-    <div class="">
-      <h2 class="section-title w_93pc-center">Noticias</h2>
-      <article class="main-news">
-        <picture class="main-news__img_flex">
-          <source media=(min-width:500px) srcset="./assets/img/main-news-md.png"/>
-          <img class="post-img" src="./assets/img/main-news-sm.png" alt="vintage electronic devices">
-        </picture>
-        <!-- <img class="post-img" src="./assets/img/main-news-img-500.png" alt="vintage electronic devices"> -->
-        <h3 class="post__title main-news__title w_93pc-center">Los mejores Trucos y Hacks de CSS</h3>
-        <p class="main-news__content w_93pc-center">Aprende nuevos trucos sobre CSS. Con está tecnología es posible hacer efectos y transiciones muy monas que antes solo eran posibles con JavaScript, hoy en día es muy sencillo hacer que tu sitio web tome mas personalidad con CSS.</p>
-        <div class="w_93pc-center">
-          <a class="link-content post__link" href="#"><span>Leer más</span></a>
-        </div>
-      </article>
-    </div>
-  </section>
-  <section class="blogposts">
-    <div class="w_80pc-center blogpost__resize-container">
-      <h2 class="section-title blogposts__title">Últimos blogposts</h2>
-      <div class="blogposts__container">
-        <article class="post">
-          <img class="post-img post-img__rounded" src="./assets/img/post-1-sm.png" alt="some text">
-          <h3 class="post__title post__title_soft-grey post__title_16">Machine Learning, explora un mundo nuevo.</h3>
-          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
-          <a class="link-content post__link" href=""><span></span>Leer más</a>
-        </article>
-        <article class="post">
-          <img class="post-img post-img__rounded" src="./assets/img/post-2-sm.png" alt="some text">
-          <h3 class="post__title post__title_soft-grey post__title_16">Responsive Design ahora es obligatorio.</h3>
-          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
-          <a class="link-content post__link" href=""><span></span>Leer más</a>
-        </article>
-        <article class="post">
-          <img class="post-img post-img__rounded" src="./assets/img/post-3-sm.png" alt="some text">
-          <h3 class="post__title post__title_soft-grey post__title_16">¿Quieres aprender a programar en PHP?</h3>
-          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
-          <a class="link-content post__link" href=""><span></span>Leer más</a>
-        </article>
-        <article class="post">
-          <img class="post-img post-img__rounded" src="./assets/img/post-1-sm.png" alt="some text">
-          <h3 class="post__title post__title_soft-grey post__title_16">Machine Learning, explora un mundo nuevo.</h3>
-          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
-          <a class="link-content post__link" href=""><span></span>Leer más</a>
-        </article>
-        <article class="post">
-          <img class="post-img post-img__rounded" src="./assets/img/post-2-sm.png" alt="some text">
-          <h3 class="post__title post__title_soft-grey post__title_16">Responsive Design ahora es obligatorio.</h3>
-          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
-          <a class="link-content post__link" href=""><span></span>Leer más</a>
-        </article>
-        <article class="post">
-          <img class="post-img post-img__rounded" src="./assets/img/post-3-sm.png" alt="some text">
-          <h3 class="post__title post__title_soft-grey post__title_16">¿Quieres aprender a programar en PHP?</h3>
-          <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
-          <a class="link-content post__link" href=""><span></span>Leer más</a>
+  <div class="">
+    <section class="news">
+      <div class="news__container">
+        <h2 class="section-title w_93pc-center">Noticias</h2>
+        <article class="main-news">
+          <picture class="main-news__img-container">
+            <source media=(min-width:500px) srcset="./assets/img/main-news-md.png"/>
+            <img class="post-img" src="./assets/img/main-news-sm.png" alt="vintage electronic devices">
+          </picture>
+          <div class="main-news__text-content w_93pc-center">
+            <h3 class="post__title main-news__title">Los mejores Trucos y Hacks de CSS</h3>
+            <p class="main-news__content">Aprende nuevos trucos sobre CSS. Con está tecnología es posible hacer efectos y transiciones muy monas que antes solo eran posibles con JavaScript, hoy en día es muy sencillo hacer que tu sitio web tome mas personalidad con CSS.</p>
+            <div>
+              <a class="link-content post__link" href="#"><span>Leer más</span></a>
+            </div>
+          </div>
         </article>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="blogposts">
+      <div class="w_80pc-center blogpost__resize-container">
+        <h2 class="section-title blogposts__title">Últimos blogposts</h2>
+        <div class="blogposts__container">
+          <article class="post">
+            <img class="post-img post-img__rounded" src="./assets/img/post-1-sm.png" alt="some text">
+            <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Machine Learning, explora un mundo nuevo.</h3>
+            <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+            <a class="link-content post__link" href=""><span></span>Leer más</a>
+          </article>
+          <article class="post">
+            <img class="post-img post-img__rounded" src="./assets/img/post-2-sm.png" alt="some text">
+            <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Responsive Design ahora es obligatorio.</h3>
+            <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+            <a class="link-content post__link" href=""><span></span>Leer más</a>
+          </article>
+          <article class="post">
+            <img class="post-img post-img__rounded" src="./assets/img/post-3-sm.png" alt="some text">
+            <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">¿Quieres aprender a programar en PHP?</h3>
+            <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+            <a class="link-content post__link" href=""><span></span>Leer más</a>
+          </article>
+          <article class="post">
+            <img class="post-img post-img__rounded" src="./assets/img/post-1-sm.png" alt="some text">
+            <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Machine Learning, explora un mundo nuevo.</h3>
+            <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+            <a class="link-content post__link" href=""><span></span>Leer más</a>
+          </article>
+          <article class="post">
+            <img class="post-img post-img__rounded" src="./assets/img/post-2-sm.png" alt="some text">
+            <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Responsive Design ahora es obligatorio.</h3>
+            <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+            <a class="link-content post__link" href=""><span></span>Leer más</a>
+          </article>
+          <article class="post">
+            <img class="post-img post-img__rounded" src="./assets/img/post-3-sm.png" alt="some text">
+            <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">¿Quieres aprender a programar en PHP?</h3>
+            <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
+            <a class="link-content post__link" href=""><span></span>Leer más</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
