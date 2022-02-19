@@ -2,6 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* general component */
+.container {
+  min-width: 32rem;
+}
+
 .blogs-nav {
   justify-content: space-between;
 }
