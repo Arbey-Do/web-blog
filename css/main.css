@@ -10,7 +10,7 @@ body {
 	height: 100%;
 }
 
-.header.header_flex {
+.header {
 	background-color: #47cfac;
 }
 
@@ -20,6 +20,7 @@ body {
 	align-items: center;
 }
 
+/* general component */
 .w_1266-center {
 	width: 90%;
 	margin: 0 auto;
@@ -42,7 +43,7 @@ body {
 	color: #FFF;
 }
 
-.nav.nav_flex {
+.nav_flex {
 	flex: 0 0 8rem;
 	display: flex;
 	align-items: center;
@@ -65,16 +66,16 @@ body {
 	text-decoration: underline;
 }
 
-.main.main_flex {
-	flex: 1 1 auto;
-}
-
 .main {
 	background-image: url(./../assets/img/back-cover.png);
 	background-repeat: no-repeat;
 	/* background-position: 50% 30%; */
 	background-position: center;
 	background-size: cover;
+}
+
+.main_flex {
+	flex: 1 1 auto;
 }
 
 .main-container {
