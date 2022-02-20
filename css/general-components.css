@@ -1,4 +1,23 @@
-.w_1266-center {
+.w_80p {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.w_90p {
 	width: 90%;
 	margin: 0 auto;
+}
+
+.w_93p {
+	width: 93%;
+	margin: 0 auto;
+}
+
+.min-width_320px {
+	min-width: 32rem;
+}
+
+.max-width_1200px {
+	max-width: 1200px;
+	/* margin: 0 auto; */
 }

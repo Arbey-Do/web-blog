@@ -10,13 +10,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/font/flaticon.css">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/general-components.css">
 	<link rel="stylesheet" href="./css/header-nav.css">
   <link rel="stylesheet" href="./css/blogs.css">
 </head>
 <body>
-  <div class="container">
+  <div class="min-width_320px">
     <header class="header">
-      <div class="header__icons-container w_90pc-center">
+      <div class="header__icons-container w_90p max-width_1200px">
         <div class="icons">
           <a href="#"><span class="flaticon-001-facebook icon_white"></span></a>
           <a href="#"><span class="flaticon-002-twitter icon_white"></span></a>
@@ -27,25 +28,25 @@
       </div>
     </header>
     <nav class="nav">
-      <div class="nav__links-container blogs-nav w_93pc-center">
+      <div class="nav__links-container w_90p max-width_1200px">
         <div>
-          <a href="./blogs.html"><img class="nav__logo" src="./assets/img/logo-sm.png" alt="Blog logo"></a>
+          <a href="blogs.html"><img class="nav__logo" src="./assets/img/logo-sm.png" alt="Blog logo"></a>
         </div>
         <div>
-          <a class="nav__link blogs-nav__home-link" href="./index.html">Home</a>
+          <a class="nav__link" href="./index.html">Home</a>
         </div>
       </div>
     </nav>
     <div class="">
       <section class="news">
         <div class="news__container">
-          <h2 class="section-title w_93pc-center">Noticias</h2>
-          <article class="main-news">
+          <h2 class="section-title w_90p max-width_1200px">Noticias</h2>
+          <article class="main-news max-width_1200px">
             <picture class="main-news__img-container">
               <source media=(min-width:500px) srcset="./assets/img/main-news-md.png"/>
               <img class="post-img" src="./assets/img/main-news-sm.png" alt="vintage electronic devices">
             </picture>
-            <div class="main-news__text-content w_93pc-center">
+            <div class="main-news__text-content w_90p">
               <h3 class="post__title main-news__title">Los mejores Trucos y Hacks de CSS</h3>
               <p class="main-news__content">Aprende nuevos trucos sobre CSS. Con está tecnología es posible hacer efectos y transiciones muy monas que antes solo eran posibles con JavaScript, hoy en día es muy sencillo hacer que tu sitio web tome mas personalidad con CSS.</p>
               <div>
@@ -56,42 +57,42 @@
         </div>
       </section>
       <section class="blogposts">
-        <div class="w_80pc-center blogpost__resize-container">
+        <div class="w_80p resize max-width_1200px">
           <h2 class="section-title blogposts__title">Últimos blogposts</h2>
           <div class="blogposts__container">
             <article class="post">
               <img class="post-img post-img__rounded" src="./assets/img/post-1-sm.png" alt="some text">
-              <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Machine Learning, explora un mundo nuevo.</h3>
+              <h3 class="post__title post__title_soft-grey">Machine Learning, explora un mundo nuevo.</h3>
               <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
               <a class="link-content post__link" href=""><span></span>Leer más</a>
             </article>
             <article class="post">
               <img class="post-img post-img__rounded" src="./assets/img/post-2-sm.png" alt="some text">
-              <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Responsive Design ahora es obligatorio.</h3>
+              <h3 class="post__title post__title_soft-grey">Responsive Design ahora es obligatorio.</h3>
               <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
               <a class="link-content post__link" href=""><span></span>Leer más</a>
             </article>
             <article class="post">
               <img class="post-img post-img__rounded" src="./assets/img/post-3-sm.png" alt="some text">
-              <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">¿Quieres aprender a programar en PHP?</h3>
+              <h3 class="post__title post__title_soft-grey">¿Quieres aprender a programar en PHP?</h3>
               <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
               <a class="link-content post__link" href=""><span></span>Leer más</a>
             </article>
             <article class="post">
               <img class="post-img post-img__rounded" src="./assets/img/post-1-sm.png" alt="some text">
-              <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Machine Learning, explora un mundo nuevo.</h3>
+              <h3 class="post__title post__title_soft-grey">Machine Learning, explora un mundo nuevo.</h3>
               <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
               <a class="link-content post__link" href=""><span></span>Leer más</a>
             </article>
             <article class="post">
               <img class="post-img post-img__rounded" src="./assets/img/post-2-sm.png" alt="some text">
-              <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">Responsive Design ahora es obligatorio.</h3>
+              <h3 class="post__title post__title_soft-grey">Responsive Design ahora es obligatorio.</h3>
               <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
               <a class="link-content post__link" href=""><span></span>Leer más</a>
             </article>
             <article class="post">
               <img class="post-img post-img__rounded" src="./assets/img/post-3-sm.png" alt="some text">
-              <h3 class="post__title post__title_soft-grey post__title_18 post__title_20">¿Quieres aprender a programar en PHP?</h3>
+              <h3 class="post__title post__title_soft-grey">¿Quieres aprender a programar en PHP?</h3>
               <p class="content post__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit quo, cum fugit placeat sunt inventore dolor accusantium hic, expedita impedit repellendus nihil, reiciendis ea dolorem molestiae odit aut! Ipsum.</p>
               <a class="link-content post__link" href=""><span></span>Leer más</a>
             </article>

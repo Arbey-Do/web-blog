@@ -10,13 +10,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/font/flaticon.css">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/general-components.css">
 	<link rel="stylesheet" href="./css/header-nav.css">
   <link rel="stylesheet" href="./css/blog.css">
 </head>
 <body>
-  <div class="container">
+  <div class="min-width_320px">
     <header class="header">
-      <div class="header__icons-container w_90pc-center">
+      <div class="header__icons-container w_90p max-width_1200px">
         <div class="icons">
           <a href="#"><span class="flaticon-001-facebook icon_white"></span></a>
           <a href="#"><span class="flaticon-002-twitter icon_white"></span></a>
@@ -27,15 +28,27 @@
       </div>
     </header>
     <nav class="nav">
-      <div class="nav__links-container blogs-nav w_93pc-center">
+      <div class="nav__links-container w_90p max-width_1200px">
         <div>
-          <a href="./blogs.html"><img class="nav__logo" src="./assets/img/logo-sm.png" alt="Blog logo"></a>
+          <a href="blogs.html"><img class="nav__logo" src="./assets/img/logo-sm.png" alt="Blog logo"></a>
         </div>
         <div>
-          <a class="nav__link blogs-nav__home-link" href="./blogs.html">Blogs</a>
+          <a class="nav__link" href="./blogs.html">Blogs</a>
         </div>
       </div>
     </nav>
+    <main>
+      <article class="main-content">
+        <picture class="main-content__img-container">
+          <source media=(min-width:500px) srcset="./assets/img/main-news-md.png"/>
+          <img class="post-img" src="./assets/img/main-news-sm.png" alt="vintage electronic devices">
+        </picture>
+        <section>
+          <p>Noticias</p>
+          <h2></h2>
+        </section>
+      </article>
+    </main>
   </div>
 </body>
 </html>
