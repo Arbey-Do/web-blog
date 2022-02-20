@@ -15,12 +15,6 @@ body {
   background-color: #E0E3EA;
 }
 
-.section-title {
-  font-size: 2.3rem;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: .1rem;
-}
-
 /* GRID */
 .main-news {
   margin-top: 1.5rem;
@@ -37,10 +31,7 @@ body {
   gap: 1.2rem;
 }
 
-.post__title {
-  font-size: 1.6rem;
-  letter-spacing: .1rem;
-}
+/* post__title */
 
 .post__title_soft-grey {
   color: rgb(59, 59, 59);
@@ -56,12 +47,6 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   letter-spacing: .1rem;
-}
-
-.post-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .link-content {
